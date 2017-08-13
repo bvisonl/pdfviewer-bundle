@@ -12,5 +12,10 @@
     "require": {
         "php": ">=5.6.0",
         "symfony/framework-bundle": "^2.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bvisonl\\PdfViewerBundle\\": ""
+        }
     }
 }
