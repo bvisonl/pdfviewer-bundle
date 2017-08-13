@@ -1,0 +1,4 @@
+services:
+     bvisonl.pdf_viewer:
+          class: Bvisonl\PdfViewerBundle\Service\PdfViewer
+          arguments: ["@service_container", "@templating", "@router"]
